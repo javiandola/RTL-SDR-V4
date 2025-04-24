@@ -19,7 +19,7 @@ sudo rm -rvf /usr/lib/librtlsdr* /usr/include/rtl-sdr* /usr/local/lib/librtlsdr*
 
 #Install the RTL-SDR Blog drivers:
 
-sudo apt-get install libusb-1.0-0-dev git cmake pkg-config
+sudo apt-get install -y libusb-1.0-0-dev git cmake pkg-config
 git clone https://github.com/rtlsdrblog/rtl-sdr-blog
 cd rtl-sdr-blog
 mkdir build
